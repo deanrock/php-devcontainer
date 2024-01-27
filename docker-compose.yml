@@ -1,0 +1,11 @@
+version: '3.11'
+
+services:
+  dev:
+    build: .
+    volumes:
+      - ./:/app:rw,cached
+    environment:
+      # preserve bash history from devcontainer
+      - PROMPT_COMMAND=history -a
+      - HISTFILE=/app/.bash-history

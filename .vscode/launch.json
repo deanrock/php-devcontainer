@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "gdb",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/app/php-src/sapi/cli/php",
+            "environment": [],
+            "cwd": "/app",
+            "additionalSOLibSearchPath": "/app/php-src",
+            "MIMode": "gdb"
+        }
+    ]
+}

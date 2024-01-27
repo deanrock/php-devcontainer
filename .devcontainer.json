@@ -1,0 +1,15 @@
+{
+	"dockerComposeFile": [
+        "docker-compose.yml"
+	],
+	"service": "dev",
+	"workspaceFolder": "/app",
+	"overrideCommand": true,
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cpptools-extension-pack"
+			]
+		}
+	}
+}
