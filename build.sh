@@ -13,6 +13,7 @@ cd /app/php-src
  --enable-mbstring \
  --enable-opcache \
  --enable-sockets \
+ --enable-debug \
  --enable-soap \
  --enable-pcntl \
  --with-curl \
